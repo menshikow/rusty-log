@@ -1,0 +1,12 @@
+[package]
+name = "rusty-log"
+version = "0.1.0"
+edition = "2021"
+authors = []
+description = "A modern tail -f-style tool for log files with live filtering, coloring, and simple queries"
+license = ""
+
+[dependencies]
+
+[dev-dependencies]
+
