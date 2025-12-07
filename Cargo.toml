@@ -7,6 +7,12 @@ description = "A modern tail -f-style tool for log files with live filtering, co
 license = "MIT"
 
 [dependencies]
+clap = { version = "4.4", features = ["derive"] }
+notify = "6.1"
+regex = "1.10"
+colored = "3.0"
+anyhow = "1.0"
+chrono = "0.4"
+once_cell = "1.19"
 
 [dev-dependencies]
-
